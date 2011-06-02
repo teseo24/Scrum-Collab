@@ -1,0 +1,67 @@
+/* 
+    Document   : global
+    Created on : 18/05/2011, 10:43:58 AM
+    Author     : usuario
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+/* RESETS */
+html {font-size:1.25em;}
+html * {margin:0em; padding:0em; }
+body {font:50% arial,verdana,helvetica,sans-serif; overflow:visible;   }
+img {border:none;}
+ul {list-style-type:none;}
+table { border-collapse: collapse; }
+
+/* COMMON */
+.both { clear:both; }
+.fleft { float:left; }
+.fright { float:right; }
+.tcenter { text-align:center; }
+.tright { text-align:right; }
+.tleft { text-align:left; }
+.button { padding:0.2em 0.3em; border:1px solid #666; width:100%;  }
+.error { border:1px solid #f00; }
+.redtext { color:#f00; }
+.whitetext { color:#fff; }
+.thicktext { font-weight:bold; }
+.italic { font-style:italic; }
+.alert { background:#eee; color:#f00; border:1px solid #f00; padding:1em; }
+
+a,
+a:link,
+a:active,
+a:visited { text-decoration:none; color:#05253e; }
+a:hover { color:#666; }
+
+/* GENERAL */
+div#container { width:115em; margin:auto; }
+
+table#taskboard { width:100em;  }
+table#taskboard tr { vertical-align:top; text-align:left; }
+table#taskboard tr th { font-size:1.4em; background:#666; color:#fff; padding:0.3em 0.6em; }
+table#taskboard tr td { border-bottom:1px dashed #ccc; }
+
+/* NOTE */
+ul.notes { min-height:10em; clear:both; width:22em; }
+ul.notes li { border:1px solid #ccc; width:9.6em; height:12em; margin:0.3em; float:left; }
+ul.notes li.unflipped { background:#fff; }
+ul.notes li.flipped { background:#ccc; border:1px solid #666; }
+ul.notes li.placeholder { border:1px dotted #f00; }
+ul.notes li.new { border:1px solid #EFA468; }
+
+ul.notes li span.toolbar {  }
+ul.notes li span.toolbar img { margin:0.1em; }
+ul.notes li.unflipped span.toolbar img { border:1px solid #fff; }
+ul.notes li.flipped span.toolbar img { border:1px solid #EFEFEF; }
+ul.notes li span.toolbar img.on { border:1px solid #FF8C2F; background:#f2f2f2; }
